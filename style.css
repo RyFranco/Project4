@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+#map {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 75%;
+    height: 100vh;
+    z-index: 1;
+}
+
+#sidebar {
+    width: 25%;
+    background: #e9ddc5;
+    height: 100vh;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+h2 {
+    margin-top: 0;
+}
+
+#feedback {
+    font-weight: bold;
+    margin-top: 10px;
+}
